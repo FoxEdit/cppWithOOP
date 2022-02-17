@@ -7,5 +7,6 @@
 
 #include <fstream>
 #include <iostream>
+#include <cmath>
 
 #endif  // GBCLASSTWO_INCLUDES_HPP

@@ -7,8 +7,9 @@
 int *fTask::initArray(const size_t arrLen) {
     int *arr = new int[arrLen];
 
+    arr[0] = 1;
     for (size_t i = 0; i < arrLen; ++i)
-        arr[i] = i;
+        arr[i] = (int)pow(2, i);
 
     return arr;
 }
