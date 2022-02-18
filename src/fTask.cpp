@@ -14,7 +14,7 @@ int *fTask::initArray(const size_t arrLen) {
     return arr;
 }
 
-void fTask::printArray(int* arr, const size_t arrLen) {
+void fTask::printArray(const int* arr, const size_t arrLen) {
     for (size_t i = 0; i < arrLen; ++i)
         std::cout << arr[i] << " ";
 }

@@ -10,7 +10,7 @@
 class sTask : public fTask {
 public:
     int* initArray(size_t d1, size_t d2);
-    void printArray(size_t d1, size_t d2, int* arr);
+    void printArray(size_t d1, size_t d2, const int* arr);
 };
 
 #endif  // GBCLASSTWO_STASK_HPP

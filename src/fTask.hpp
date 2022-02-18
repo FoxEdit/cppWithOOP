@@ -10,7 +10,7 @@
 class fTask {
 public:
     int* initArray(size_t arrLen);
-    void printArray(int* arr, size_t arrLen);
+    void printArray(const int* arr, size_t arrLen);
     void disposeArray(const int* arr);
 };
 
